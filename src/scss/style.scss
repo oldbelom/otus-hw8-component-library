@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.left {
+  width: 30vw;
+  height: 100vh;
+  border-right: 2px solid black;
+}
+
+.right {
+  width: 70vw;
+  height: 100vh;
+}
+
+.task {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #dddddd;
+}
