@@ -2,25 +2,26 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-}
+.dropdown {
+  width: 300px;
+  max-width: 450px;
+  border: 3px solid lightpink;
 
-.left {
-  width: 30vw;
-  height: 100vh;
-  border-right: 2px solid black;
-}
+  h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
 
-.right {
-  width: 70vw;
-  height: 100vh;
-}
+    &:hover {
+      background-color: darken(lightgreen, 7%);
+    }
+  }
 
-.task {
-  display: inline-block;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: #dddddd;
+  p {
+    margin: 0;
+    padding: 20px;
+    background-color: lightpink;
+    font-size: 18px;
+  }
 }
