@@ -40,4 +40,9 @@ module.exports = {
     "import/no-unresolved": "off",
     "import/extensions": "off",
   },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };
