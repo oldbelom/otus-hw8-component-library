@@ -39,6 +39,7 @@ module.exports = {
     "no-plusplus": "off",
     "import/no-unresolved": "off",
     "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
   },
   settings: {
     react: {
